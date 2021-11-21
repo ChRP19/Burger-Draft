@@ -17,14 +17,14 @@ namespace Code.Ingredients
         public float breakTorqueDecrementMultiplier = 200f;
         public float offsetBetweenIngredients = 0.7f;
         public bool isFirstIngredient = true;
-        public bool isChild = false;
+        public bool isIngredient = false;
 
         private IngredientList _ingredientList;
         private Rigidbody _playerRigidbody;
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag(PlayerTag) && !isChild)
+            if (other.gameObject.CompareTag(PlayerTag) && !isIngredient)
             {
                 _ingredientList = other.GetComponent<IngredientList>();
                 _playerRigidbody = other.GetComponent<Rigidbody>();
@@ -60,7 +60,7 @@ namespace Code.Ingredients
         private void AddIngredientList()
         {
             _ingredientList.AddIngredient(gameObject);
-            isChild = true;
+            isIngredient = true;
         }
 
         private void PauseAnimation() =>
@@ -72,8 +72,10 @@ namespace Code.Ingredients
             if (isFirstIngredient)
             {
                 isFirstIngredient = false;
-                // FixedJoint.breakForce = firstIngredientForce;
-                // FixedJoint.breakTorque = firstIngredientTorque;
+                
+                FixedJoint.breakForce = firstIngredientForce;
+                FixedJoint.breakTorque = firstIngredientTorque;
+                
                 FixedJoint.connectedBody = _playerRigidbody;
             }
             else

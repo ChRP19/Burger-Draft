@@ -95,7 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638f885a019607f4ba8f8e3bb1d84d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetY: -5.7
+  offsetY: 1
+  fullAngle: {x: 0, y: 180, z: 0}
 --- !u!114 &7317375783182680600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,8 +114,8 @@ MonoBehaviour:
   BoxCollider: {fileID: 65722505632570600}
   firstIngredientForce: 10000
   firstIngredientTorque: 10000
-  breakForceDecrementMultiplier: 200
-  breakTorqueDecrementMultiplier: 200
+  breakForceDecrementMultiplier: 100
+  breakTorqueDecrementMultiplier: 100
   offsetBetweenIngredients: 0.7
   isFirstIngredient: 1
   isChild: 0

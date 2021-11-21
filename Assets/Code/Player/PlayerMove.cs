@@ -6,7 +6,6 @@ namespace Code.Player
     {
         private const float minX = -3.6f;
         private const float maxX = 3.6f;
-        private const float constY = -6f;
 
         private Touch touch;
         
@@ -27,8 +26,8 @@ namespace Code.Player
                 if (touch.phase == TouchPhase.Moved)
                 {
                     float positionX = transform.position.x + touch.deltaPosition.x * HorizontalSpeed;
-                    float clampPoxitionX = ClampPoxitionX(positionX);
-                    var newPosition = new Vector3(clampPoxitionX, constY, transform.position.z);
+                    float clampPositionX = ClampPositionX(positionX);
+                    var newPosition = new Vector3(clampPositionX, transform.position.y, transform.position.z);
 
                     transform.position = newPosition;
                 }
@@ -38,10 +37,10 @@ namespace Code.Player
         private void MoveForward() => 
             transform.position += transform.forward * Time.deltaTime * ForwardSpeed;
 
-        private float ClampPoxitionX(float positionX)
+        private float ClampPositionX(float positionX)
         {
-            float clampPoxitionX = Mathf.Clamp(positionX, minX, maxX);
-            return clampPoxitionX;
+            float clampPositionX = Mathf.Clamp(positionX, minX, maxX);
+            return clampPositionX;
         }
     }
 }

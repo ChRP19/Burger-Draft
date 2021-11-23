@@ -77,8 +77,8 @@ FixedJoint:
   m_GameObject: {fileID: 1481924725183472}
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 7000
-  m_BreakTorque: 5000
+  m_BreakForce: 5000
+  m_BreakTorque: 10000
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
@@ -112,8 +112,8 @@ MonoBehaviour:
   FixedJoint: {fileID: 4427856631951094358}
   IngredientAnimator: {fileID: -4334557438044835879}
   BoxCollider: {fileID: 65722505632570600}
-  firstIngredientForce: 100000
-  firstIngredientTorque: 100000
+  firstIngredientForce: 50000
+  firstIngredientTorque: 50000
   breakForceDecrementMultiplier: 200
   breakTorqueDecrementMultiplier: 200
   offsetBetweenIngredients: 0.7

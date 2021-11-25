@@ -19,28 +19,24 @@ namespace Code.Ingredients
         public bool isFirstIngredient = true;
         public bool isIngredient = false;
 
-        private IngredientList _ingredientList;
+        public IngredientList IngredientList;
+        
         private Rigidbody _playerRigidbody;
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.CompareTag(PlayerTag) && !isIngredient)
             {
-                _ingredientList = other.GetComponent<IngredientList>();
+                IngredientList = other.GetComponent<IngredientList>();
                 _playerRigidbody = other.GetComponent<Rigidbody>();
                 
                 AddIngredient(other);
             }
         }
 
-        private void OnJointBreak(float breakForce)
-        {
-            _ingredientList.RemoveIngredient(gameObject);
-        }
-
         private void AddIngredient(Collider other)
         {
-            Transform lastIngredient = _ingredientList.GetLastTransform();
+            Transform lastIngredient = IngredientList.GetLastTransform();
 
             PauseAnimation();
             DisableTrigger();
@@ -49,7 +45,7 @@ namespace Code.Ingredients
             FirstIngredientChecker();
             ConnectToJoint(lastIngredient);
 
-            AddIngredientList();
+            AddIngredientInList();
         }
 
         private void DisableTrigger()
@@ -57,9 +53,9 @@ namespace Code.Ingredients
             BoxCollider.isTrigger = false;
         }
 
-        private void AddIngredientList()
+        private void AddIngredientInList()
         {
-            _ingredientList.AddIngredient(gameObject);
+            IngredientList.AddIngredient(gameObject);
             isIngredient = true;
         }
 
@@ -87,8 +83,8 @@ namespace Code.Ingredients
 
         private void DecrementTorque()
         {
-            FixedJoint.breakForce -= _ingredientList.GetCount() * breakForceDecrementMultiplier;
-            FixedJoint.breakTorque -= _ingredientList.GetCount() * breakTorqueDecrementMultiplier;
+            FixedJoint.breakForce -= IngredientList.GetCount() * breakForceDecrementMultiplier;
+            FixedJoint.breakTorque -= IngredientList.GetCount() * breakTorqueDecrementMultiplier;
         }
 
         private void MoveToLastIngredientPosition(Transform lastIngredient)
@@ -104,7 +100,7 @@ namespace Code.Ingredients
 
         private bool FirstIngredientChecker()
         {
-            if ((_ingredientList.GetCount()) >= 1)
+            if ((IngredientList.GetCount()) >= 1)
                 isFirstIngredient = false;
             return isFirstIngredient;
         }

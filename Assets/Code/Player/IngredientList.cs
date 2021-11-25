@@ -6,38 +6,49 @@ namespace Code.Player
 {
     public class IngredientList : MonoBehaviour
     {
-        [SerializeField] private List<GameObject> _ingredients;
+        [SerializeField] private List<GameObject> ingredients;
 
         public void AddIngredient(GameObject ingredient)
         {
-            _ingredients.Add(ingredient);
+            ingredients.Add(ingredient);
         }
 
         public void RemoveIngredient(GameObject ingredient)
         {
-            int index = _ingredients.IndexOf(ingredient);
-            for (int i = _ingredients.Count - 1; i >= index; i--)
+            int index = ingredients.IndexOf(ingredient);
+            for (int i = ingredients.Count - 1; i >= index; i--)
             {
                 if (i > 0)
                 {
                     RemoveFixedJoint(i);
-                    _ingredients.RemoveAt(i);
-                    
-                    Debug.Log("Delete item # " + i);
+                    ingredients.RemoveAt(i);
                 }
             }
         }
 
         private void RemoveFixedJoint(int i) => 
-            Destroy(_ingredients[i].GetComponent<FixedJoint>());
+            Destroy(ingredients[i].GetComponent<FixedJoint>());
 
         public Transform GetLastTransform()
         {
-            GameObject last = _ingredients[_ingredients.Count - 1];
+            GameObject last = ingredients[ingredients.Count - 1];
             return last.transform;
         }
 
         public int GetCount() => 
-            _ingredients.Count - 1;
+            ingredients.Count - 1;
+
+        public void RemoveRandomLastIngredients()
+        {
+            int index = ingredients.Count - Random.Range(2, 4);
+            for (int i = ingredients.Count - 1; i >= index; i--)
+            {
+                if (i > 0)
+                {
+                    RemoveFixedJoint(i);
+                    ingredients.RemoveAt(i);
+                }
+            }
+        }
     }
 }

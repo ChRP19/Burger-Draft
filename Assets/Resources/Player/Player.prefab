@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f89190b69ed4ea7ac87198e1da35062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ingredients:
+  ingredients:
   - {fileID: 3873089070132352707}
 --- !u!1001 &3871210898541533155
 PrefabInstance:

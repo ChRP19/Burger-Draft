@@ -40,7 +40,7 @@ namespace Code.Player
 
         public void RemoveRandomLastIngredients()
         {
-            int index = ingredients.Count - Random.Range(2, 4);
+            int index = ingredients.Count - Random.Range(2, 3);
             for (int i = ingredients.Count - 1; i >= index; i--)
             {
                 if (i > 0)

@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1639351743366012660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673685060016794797, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_Name
+      value: Arugula Leaf B Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+--- !u!4 &53664084410090909 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1620876448427039593, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+  m_PrefabInstance: {fileID: 1639351743366012660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4503522224410417592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 53664084410090909}
+    m_Modifications:
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.67636657
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6763665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.168
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.115
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.16794442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.024677657
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.98505193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.02929809
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -160.723
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637728487931863546, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_Name
+      value: Arugula Leaf B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637728487931863546, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+--- !u!1001 &4503522224502553224
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 53664084410090909}
+    m_Modifications:
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6763664
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.67636645
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.17393994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.12117982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7458793
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0031392642
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6659725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.011617879
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.155
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -276.486
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.754
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637728487931863546, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_Name
+      value: Arugula Leaf B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637728487931863546, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+--- !u!1001 &4503522225177202051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 53664084410090909}
+    m_Modifications:
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.67636657
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6763665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06510949
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.046429873
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3569938
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.01129479
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9335726
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.029498043
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -221.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112724482904505152, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.418
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637728487931863546, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_Name
+      value: Arugula Leaf B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637728487931863546, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5bbb2b91932c4930986d8b90d9de154a, type: 3}

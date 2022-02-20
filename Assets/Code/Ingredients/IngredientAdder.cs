@@ -30,11 +30,11 @@ namespace Code.Ingredients
                 IngredientList = other.GetComponent<IngredientList>();
                 _playerRigidbody = other.GetComponent<Rigidbody>();
                 
-                AddIngredient(other);
+                AddIngredient();
             }
         }
 
-        private void AddIngredient(Collider other)
+        private void AddIngredient()
         {
             Transform lastIngredient = IngredientList.GetLastTransform();
 

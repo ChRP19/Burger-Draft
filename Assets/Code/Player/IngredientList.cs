@@ -50,5 +50,10 @@ namespace Code.Player
                 }
             }
         }
+        public Rigidbody GetLastRigidbody()
+        {
+            GameObject last = ingredients[ingredients.Count - 1];
+            return last.gameObject.GetComponent<Rigidbody>();
+        }
     }
 }

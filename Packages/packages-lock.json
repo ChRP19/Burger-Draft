@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.deltation.toon-shader": {
+      "version": "https://github.com/Delt06/urp-toon-shader.git?path=Packages/com.deltation.toon-shader",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "10.3.2"
+      },
+      "hash": "d26fd052e305511df5d30b45986e3ddafd34327c"
+    },
     "com.unity.collab-proxy": {
       "version": "1.11.2",
       "depth": 0,

@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1072251271201124522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072251271201124523}
+  m_Layer: 0
+  m_Name: Burger A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1072251271201124523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072251271201124522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.109, y: 0.132, z: -1.845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4007599538046048356}
+  - {fileID: 8210373879869577845}
+  - {fileID: 7481763344126756621}
+  - {fileID: 3240045212327417782}
+  - {fileID: 4568063301978685385}
+  - {fileID: 8593097003835727857}
+  - {fileID: 377337828990017200}
+  - {fileID: 4861284085908726234}
+  - {fileID: 5835963219276658871}
+  - {fileID: 5323271187957748255}
+  - {fileID: 8820202439783373988}
+  - {fileID: 3821263405302602337}
+  - {fileID: 5233947922478617573}
+  - {fileID: 6507627727484027233}
+  - {fileID: 5847077103077177943}
+  - {fileID: 4573773943912106402}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1072251272004252621
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761244044523590424}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!54 &1072251270679433350
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -44,68 +106,6 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!1 &1072251271201124522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1072251271201124523}
-  m_Layer: 0
-  m_Name: Burger A
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1072251271201124523
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072251271201124522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.109, y: 0.244, z: -1.845}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4007599538046048356}
-  - {fileID: 8210373879869577845}
-  - {fileID: 7481763344126756621}
-  - {fileID: 3240045212327417782}
-  - {fileID: 4568063301978685385}
-  - {fileID: 8593097003835727857}
-  - {fileID: 377337828990017200}
-  - {fileID: 4861284085908726234}
-  - {fileID: 5835963219276658871}
-  - {fileID: 5323271187957748255}
-  - {fileID: 8820202439783373988}
-  - {fileID: 3821263405302602337}
-  - {fileID: 5233947922478617573}
-  - {fileID: 6507627727484027233}
-  - {fileID: 5847077103077177943}
-  - {fileID: 4573773943912106402}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1072251272004252621
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3761244044523590424}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &325307373710826588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -261,15 +261,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3573652427187219798, guid: fa199157de5e494aa0d9454f2972d925, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1828244
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3573652427187219798, guid: fa199157de5e494aa0d9454f2972d925, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1828244
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3573652427187219798, guid: fa199157de5e494aa0d9454f2972d925, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1828245
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3573652427187219798, guid: fa199157de5e494aa0d9454f2972d925, type: 3}
       propertyPath: m_LocalPosition.x
@@ -558,15 +558,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4142392818265346566, guid: 4c096814fdeb410596364f68b6caf41c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1828244
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4142392818265346566, guid: 4c096814fdeb410596364f68b6caf41c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1828244
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4142392818265346566, guid: 4c096814fdeb410596364f68b6caf41c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1828245
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4142392818265346566, guid: 4c096814fdeb410596364f68b6caf41c, type: 3}
       propertyPath: m_LocalPosition.x

@@ -298,6 +298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomato
       objectReference: {fileID: 0}
+    - target: {fileID: 7458038210403036040, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
+      propertyPath: m_Center.y
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e22f090a8f6cdf44c92fbcf4a6be6c88, type: 3}
 --- !u!4 &5116485175449741421 stripped

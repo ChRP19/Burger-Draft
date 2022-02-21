@@ -2737,6 +2737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cutlet A Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2694083998804615754, guid: 79e2c25dd4325e244a0b20b5c24de6e3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4471094075962110704, guid: 79e2c25dd4325e244a0b20b5c24de6e3, type: 3}
       propertyPath: m_RootOrder
       value: 26

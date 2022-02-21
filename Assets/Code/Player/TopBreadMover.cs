@@ -14,7 +14,6 @@ namespace Code.Player
 		public Transform TopBread;
 		private void Start()
 		{
-			TopBread.parent = null;
 			_ingredientList = this.GetComponent<IngredientList>();
 			JoinBody();
 		}
@@ -23,14 +22,12 @@ namespace Code.Player
 		
 		private void OnTriggerEnter(Collider other)
 		{
-			if(other.gameObject.CompareTag(IngredientTag))
+			if(other.CompareTag(IngredientTag))
 			{
-				Debug.Log("Я коснулся ингредиента: " + other.tag);
-
-				JoinBody();
-
-				Transform lastIngredient = FixedJoint.connectedBody.transform;
+				Transform lastIngredient = _ingredientList.GetLastTransform();
 				MoveAboveTheLastIngredient(lastIngredient);
+				
+				JoinBody();
 			}
 		}
 		private void MoveAboveTheLastIngredient(Transform lastIngredient)

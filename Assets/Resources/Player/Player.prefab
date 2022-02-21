@@ -64,8 +64,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.34121007, y: 0.1, z: 0.34315667}
-  m_Center: {x: 0.0000038892026, y: 0.035128344, z: 0.008743129}
+  m_Size: {x: 0.34121007, y: 0.2, z: 0.34315667}
+  m_Center: {x: 0.0000038892026, y: 0.07, z: 0.008743129}
 --- !u!54 &620484992853934882
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5fda0c30a8427dad21edf473d87fe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetOverIngredients: 0
+  offsetOverIngredients: 0.5
   FixedJoint: {fileID: 8186067532704932814}
   TopBread: {fileID: 9004433629607000525}
 --- !u!1001 &750666734990359340
@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2276901597808604340, guid: a1e102a711742f849ac62c55ac069fd6, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4018083164321969124, guid: a1e102a711742f849ac62c55ac069fd6, type: 3}
       propertyPath: m_IsKinematic

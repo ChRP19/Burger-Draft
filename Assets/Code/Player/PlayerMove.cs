@@ -16,13 +16,6 @@ namespace Code.Player
         float currentPosition = 0;
         float deltaPositon = 0;
 
-        private void FixedUpdate()
-        {
-            MoveForward();
-            //MoveHorizontalMouse();
-            MoveHorizontal();
-        }
-
         private void MoveHorizontal()
         {
             if (Input.touchCount > 0)
@@ -38,6 +31,12 @@ namespace Code.Player
             }
         }
 
+        private void FixedUpdate()
+        {
+            MoveForward();
+            //MoveHorizontalMouse();
+            MoveHorizontal();
+        }
         private void MoveHorizontalMouse()
         {
             if (Input.GetMouseButton(0))

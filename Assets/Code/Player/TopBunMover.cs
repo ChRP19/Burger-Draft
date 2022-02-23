@@ -11,11 +11,15 @@ namespace Code.Player
 		
 		public float offsetOverIngredients = 0.5f;
 		public FixedJoint FixedJoint;
-		public Transform TopBread;
+		public Transform TopBun;
+
 		private void Start()
 		{
 			_ingredientList = this.GetComponent<IngredientList>();
 			JoinBody();
+
+			_ingredientList.OnRemoveIngredient += MoveTopBunAboveTheLastIngredient;
+			_ingredientList.OnRemoveIngredient += JoinBody;
 		}
 		private void JoinBody() =>
 			FixedJoint.connectedBody = _ingredientList.GetLastRigidbody();
@@ -24,21 +28,23 @@ namespace Code.Player
 		{
 			if(other.CompareTag(IngredientTag))
 			{
-				Transform lastIngredient = _ingredientList.GetLastTransform();
-				MoveAboveTheLastIngredient(lastIngredient);
-				
+				Debug.Log(other.GetComponent<IngredientAdder>().isIngredient);
+
+				MoveTopBunAboveTheLastIngredient();
 				JoinBody();
 			}
 		}
-		private void MoveAboveTheLastIngredient(Transform lastIngredient)
+		private void MoveTopBunAboveTheLastIngredient()
 		{
+			Transform lastIngredient = _ingredientList.GetLastTransform();
+			
 			var position = lastIngredient.transform.position;
 			Vector3 lastIngredientPosition =
 				new Vector3(position.x, lastIngredient.position.y + offsetOverIngredients, position.z);
 			Quaternion lastIngredientRotation = lastIngredient.rotation;
 			
-			TopBread.position = lastIngredientPosition;
-			TopBread.rotation = lastIngredientRotation;
+			TopBun.position = lastIngredientPosition;
+			TopBun.rotation = lastIngredientRotation;
 		}
 	}
 }

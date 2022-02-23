@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Code.Ingredients
 {
@@ -8,6 +9,7 @@ namespace Code.Ingredients
 
         public IngredientAdder IngredientAdder;
         public FixedJoint FixedJoint;
+        
 
         private void OnCollisionEnter(Collision other)
         {

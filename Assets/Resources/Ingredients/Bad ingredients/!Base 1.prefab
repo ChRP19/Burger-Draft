@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6171006857085262827}
   - component: {fileID: 2312496284408984505}
   m_Layer: 0
-  m_Name: '!Base'
+  m_Name: '!Base 1'
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

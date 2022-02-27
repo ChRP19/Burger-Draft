@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Code.Player
 {
-	public class TopBreadMove : MonoBehaviour
+	public class TopBunMover : MonoBehaviour
 	{
 		private IngredientList _ingredientList;
 		private const string IngredientTag = "Ingredient";
@@ -27,8 +27,6 @@ namespace Code.Player
 		{
 			if(other.CompareTag(IngredientTag))
 			{
-				Debug.Log(other.GetComponent<IngredientAdder>().isIngredient);
-
 				MoveTopBunAboveTheLastIngredient();
 				JoinBody();
 			}

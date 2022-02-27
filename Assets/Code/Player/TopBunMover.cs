@@ -1,10 +1,9 @@
-﻿using System;
-using Code.Ingredients;
+﻿using Code.Ingredients;
 using UnityEngine;
 
 namespace Code.Player
 {
-	public class TopBreadMover : MonoBehaviour
+	public class TopBreadMove : MonoBehaviour
 	{
 		private IngredientList _ingredientList;
 		private const string IngredientTag = "Ingredient";
